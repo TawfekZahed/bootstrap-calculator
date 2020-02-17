@@ -1,0 +1,66 @@
+:root{
+    /*dark theme */
+    --dark-page-bg:#111111;
+    --dark-header-bg:#232323;
+
+  /*light theme*/
+  --light-page-bg:
+  --light-head-bg:
+}
+body.light-main{
+    background: var(--light-page-bg);
+}
+body.dark-main{
+    background: var(--dark-page-bg)
+}
+body.light.switch{
+    background:gray;
+    width:20px;
+    height: 20px;
+}
+header{
+    background-color:black;
+}
+nav{
+    margin-top:-20px;
+    margin-left:30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  main {
+    display:grid;
+    grid-template-columns: auto auto auto; 
+    grid-gap: 5px;
+    background-color: #2196F3;
+    padding: 30px;
+  }
+  
+  main .teaser {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+
+  }
